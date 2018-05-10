@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView listaDeMascotas;
     public MascotaAdaptador adaptador;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
