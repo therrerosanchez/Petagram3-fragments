@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Petagram</string>
+    <string name="app_name">Petagram3</string>
     <string name="nombre_generico">Nombre</string>
     <string name="foto_generico">Foto</string>
     <string name="hueso">Hueso</string>
@@ -7,4 +7,14 @@
     <string name="estrella">Estrella</string>
     <string name="huella">Huella</string>
     <string name="Back">Atrás</string>
+    <string name="MenuContacto">Contacto</string>
+    <string name="MenuAcercaDe">Acerca de...</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="disclaimer">Petagram3 es una aplicación desarrollada por Tomás Herrero</string>
+    <string name="bio">Nacido en Madrid el 31/3/1970</string>
+    <string name="miEmail">tomasherrero@gmail.com</string>
+    <string name="miNombre">Tomás Herrero Sánchez</string>
 </resources>

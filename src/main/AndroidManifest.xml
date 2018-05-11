@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.therrero.petagram">
+    package="org.therrero.petagram3">
 
     <application
         android:allowBackup="true"
@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RatedActivity"></activity>
+        <activity android:name=".RatedActivity" />
+        <activity android:name=".ActivityContacto" />
+        <activity android:name=".ActivityAbout" />
+        <activity android:name=".BioActivity"></activity>
     </application>
 
 </manifest>
