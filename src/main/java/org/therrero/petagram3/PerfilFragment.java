@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class PerfilFragment extends Fragment {
-    ArrayList<Mascota> fotosmascotas;
+    ArrayList<FotoMascota> fotosmascotas;
     private RecyclerView listaDeFotosDeMascotas;
     public FotoAdapter adaptador;
 
@@ -45,16 +45,16 @@ public class PerfilFragment extends Fragment {
     }
 
     public void inicializarListaMascotas(){
-        fotosmascotas= new ArrayList<Mascota>();
+        fotosmascotas= new ArrayList<FotoMascota>();
 
-        fotosmascotas.add(new Mascota("Pepi",R.drawable.mascota1,(int)Math.random()*10));
-        fotosmascotas.add(new Mascota("Pepi", R.drawable.mascota1,(int)Math.random()*10));
-        fotosmascotas.add(new Mascota("Pepi", R.drawable.mascota1,(int)Math.random()*10));
-        fotosmascotas.add(new Mascota("Pepi",R.drawable.mascota1,(int)Math.random()*10));
-        fotosmascotas.add(new Mascota("Pepi",R.drawable.mascota1,(int)Math.random()*10));
-        fotosmascotas.add(new Mascota("Pepi",R.drawable.mascota1,(int)Math.random()*10));
-        fotosmascotas.add(new Mascota("Pepi",R.drawable.mascota1,(int)Math.random()*10));
-        fotosmascotas.add(new Mascota("Pepi",R.drawable.mascota1,(int)Math.random()*10));
+        fotosmascotas.add(new FotoMascota(R.drawable.mascota1,5));
+        fotosmascotas.add(new FotoMascota(R.drawable.mascota1,4));
+        fotosmascotas.add(new FotoMascota(R.drawable.mascota1,8));
+        fotosmascotas.add(new FotoMascota(R.drawable.mascota1,13));
+        fotosmascotas.add(new FotoMascota(R.drawable.mascota1,1));
+        fotosmascotas.add(new FotoMascota(R.drawable.mascota1,5));
+        fotosmascotas.add(new FotoMascota(R.drawable.mascota1,0));
+        fotosmascotas.add(new FotoMascota(R.drawable.mascota1,9));
 
     }
 }

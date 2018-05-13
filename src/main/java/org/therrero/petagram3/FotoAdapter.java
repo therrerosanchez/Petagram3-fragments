@@ -13,10 +13,10 @@ import java.util.ArrayList;
 
 public class FotoAdapter extends RecyclerView.Adapter<FotoAdapter.FotoMascotaViewHolder> {
 
-    ArrayList<Mascota> mascotas;
+    ArrayList<FotoMascota> mascotas;
     Activity activity;
 
-    public FotoAdapter(ArrayList<Mascota> mascotas, Activity activity){
+    public FotoAdapter(ArrayList<FotoMascota> mascotas, Activity activity){
         this.mascotas = mascotas;
         this.activity = activity;
     }
@@ -31,7 +31,7 @@ public class FotoAdapter extends RecyclerView.Adapter<FotoAdapter.FotoMascotaVie
     //Asocia cada elemento de nuestra vista con cada view
     @Override
     public void onBindViewHolder(@NonNull FotoAdapter.FotoMascotaViewHolder FotoMascotaViewHolder, int position) {
-        final Mascota mascota = mascotas.get(position);
+        final FotoMascota mascota = mascotas.get(position);
         FotoMascotaViewHolder.imgFoto.setImageResource(mascota.getFoto());
         FotoMascotaViewHolder.tvLikesCV.setText(String.valueOf(mascota.getLikes()));
     }
