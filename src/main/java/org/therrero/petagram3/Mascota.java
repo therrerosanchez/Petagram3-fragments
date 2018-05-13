@@ -1,5 +1,7 @@
 package org.therrero.petagram3;
 
+import java.util.ArrayList;
+
 public class Mascota {
     private String nombre;
     private int foto;

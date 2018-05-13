@@ -43,7 +43,7 @@ public class RecyclerViewFragment extends Fragment {
     public void inicializarListaMascotas(){
         mascotas= new ArrayList<Mascota>();
 
-        mascotas.add(new  Mascota("Pepi", R.drawable.mascota1,0));
+        mascotas.add(new Mascota("Pepi", R.drawable.mascota1,0));
         mascotas.add(new Mascota("Chewi", R.drawable.mascota2,0));
         mascotas.add(new Mascota("Chispas", R.drawable.mascota3,0));
         mascotas.add(new Mascota("Toby",R.drawable.mascota4,0));
