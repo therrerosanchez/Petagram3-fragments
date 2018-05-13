@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".RatedActivity" />
         <activity android:name=".ActivityContacto" />
-        <activity android:name=".ActivityAbout" />
         <activity android:name=".BioActivity"></activity>
     </application>
 

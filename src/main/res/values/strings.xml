@@ -17,4 +17,7 @@
     <string name="bio">Nacido en Madrid el 31/3/1970</string>
     <string name="miEmail">tomasherrero@gmail.com</string>
     <string name="miNombre">Tomás Herrero Sánchez</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
