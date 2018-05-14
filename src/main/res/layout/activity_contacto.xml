@@ -75,4 +75,5 @@
         android:text="@string/aceptar"
         android:textColor="@android:color/white"
         tools:targetApi="lollipop" />
+
 </LinearLayout>
