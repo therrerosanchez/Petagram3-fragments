@@ -57,6 +57,7 @@
 
         <EditText
             android:id="@+id/campo_mensaje"
+            android:lines="4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -69,7 +70,6 @@
         android:id="@+id/boton_aceptar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_marginBottom="1dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/aceptar"
